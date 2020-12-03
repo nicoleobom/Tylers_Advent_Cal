@@ -1,0 +1,29 @@
+body {
+    /* background-image: url('./assets/images/bg.png'); */
+    background-color: black !important;
+    background-position: center;
+    background-size: cover;
+    /* position: fixed; */
+}
+
+.margin-top {
+    margin-top: 10%;
+}
+
+.c-spacing {
+    height: 200px !important;
+    width: 200px !important;
+    margin: 5px !important;
+}
+
+.center-align {
+    justify-content: center;
+}
+
+.locked {
+
+}
+
+.unlocked {
+    
+}
