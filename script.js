@@ -10,9 +10,9 @@ function lockedDate() {
     for (var i=0; i < 31; i++) {
         var id = document.getElementById(i+1)
         if (id.id <= day) {
-            id.text = id.id
+            id.childNodes[1].childNodes[1].innerText = id.id
         } else {
-            
+            id.childNodes[1].childNodes[1].innerHTML = "<i class='fas fa-lock'></i>"
             id.style.pointerEvents = "none";
         }
     }
@@ -21,5 +21,5 @@ function lockedDate() {
 lockedDate();
 
 function newQuote() {
-    
+
 }
