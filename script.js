@@ -1,17 +1,18 @@
 function lockedDate() {
     var date = new Date();
     var day = date.getDate();
-    console.log(day);
-    
-    var cards = document.querySelectorAll('#all-cards .nums').length;
+    var month = date.getMonth() + 1;
 
-    console.log(cards);
+    console.log(month);
+
+    var text = document.getElementsByClassName('txt');
 
     for (var i=0; i < 31; i++) {
         var id = document.getElementById(i+1)
         if (id.id <= day) {
-            // unlock
+            id.text = id.id
         } else {
+            
             id.style.pointerEvents = "none";
         }
     }
