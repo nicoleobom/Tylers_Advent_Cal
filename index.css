@@ -1,6 +1,5 @@
 body {
-    /* background-image: url('./assets/images/bg.png'); */
-    background-color: black !important;
+    background-image: url('./assets/images/destiny.jpg');
     background-position: center;
     background-size: cover;
     /* position: fixed; */
@@ -71,7 +70,7 @@ body {
   
   /* Style the back side */
   .flip-card-back {
-    background-color: dodgerblue;
+    background-color: #373b7d;
     color: white;
     transform: rotateY(180deg);
   }

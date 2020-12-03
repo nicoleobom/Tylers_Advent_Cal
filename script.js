@@ -19,3 +19,7 @@ function lockedDate() {
 }
 
 lockedDate();
+
+function newQuote() {
+    
+}
