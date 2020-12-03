@@ -21,5 +21,7 @@ function lockedDate() {
 lockedDate();
 
 function newQuote() {
+    var myQuotes = JSON.parse(quote)
+    var randomNum = Math.floor(Math.random() * 12) + 1;
 
 }
