@@ -25,3 +25,7 @@ function newQuote() {
     var randomNum = Math.floor(Math.random() * 12) + 1;
 
 }
+
+function modalPopUp() {
+    
+}
