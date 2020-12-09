@@ -1,3 +1,38 @@
+@font-face {
+  font-family: 'Exodus-Reg';
+  src: url('./assets/fonts/ExodusDemo-Regular.otf')
+}
+
+@font-face {
+  font-family: 'Exodus-Sharp';
+  src: url('./assets/fonts/ExodusDemo-Sharpen.otf')
+}
+
+@font-face {
+  font-family: 'Exodus-Shino';
+  src: url('./assets/fonts/ExodusDemo-Shino.otf')
+}
+
+@font-face {
+  font-family: 'Exodus-Stencil';
+  src: url('./assets/fonts/ExodusDemo-Stencil.otf')
+}
+
+@font-face {
+  font-family: 'Exodus-Striped';
+  src: url('./assets/fonts/ExodusDemo-Striped.otf')
+}
+
+@font-face {
+  font-family: 'Makuta';
+  src: url('./assets/fonts/Mukta-Medium.ttf');
+}
+
+@font-face {
+  font-family: 'Shadows';
+  src: url('./assets/fonts/ShadowsIntoLight-Regular.ttf');
+}
+
 body {
     background-image: url('./assets/images/destiny.jpg');
     background-attachment: fixed;
@@ -25,14 +60,6 @@ body {
 .nums {
     text-align: center;
     font-size: 80px;
-}
-
-.locked {
-
-}
-
-.unlocked {
-
 }
 
 /* CARD FLIP ANIMATIONS */
@@ -68,18 +95,22 @@ body {
   padding-top: 10%;
   background-color: rgba(55,59,125, .8);
   color: white;
+  font-family: 'Makuta', sans-serif;
 }
 
-.flip-card-front {
+.flip-card-front2 {
   padding-top: 10%;
-  background-color: #bbb;
-  color: black;
+  background-color: rgba(187,187,187, .6);
+  font-family: 'Exodus-Sharp', serif;
+  color: #0c1122;
+  font-weight: bolder;
 }
 
-.flip-card-front {
+.flip-card-front3 {
   padding-top: 10%;
-  background-color: #bbb;
-  color: black;
+  background-color: rgba(28,40,82, .8);
+  color: lightgrey;
+  font-family: 'Shadows' !important;
 }
 
 .flip-card-back {
@@ -88,10 +119,10 @@ body {
   transform: rotateY(180deg);
 }
 
-button {
-  cursor: pointer;
-}
-
 .fa-gifts {
   margin-top: 17%;
+}
+
+.fa-lock {
+  margin-top: 10%;
 }
