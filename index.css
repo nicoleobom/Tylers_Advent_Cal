@@ -163,6 +163,37 @@ body {
   font-family: 'Shadows', sans-serif;
 }
 
+#title {
+  height: 100vh;
+}
+
+h4 {
+  margin-top: 10px;
+  font-family: 'Exodus-Striped', sans-serif;
+  color: white;
+}
+
+.gradient{
+  background: linear-gradient(to right, #1c2852,#fff);
+  background-size: 200% 200%;
+  animation: rainbow 2s ease-in-out infinite;
+  background-clip: text;
+  -webkit-background-clip:text;
+  color: rgba(0,0,0,0);
+  transition: color .35s ease-in-out;
+  font-weight: bolder !important;
+  font-size: 50px !important;
+}
+/* .gradient:hover{
+  color:rgba(0,0,0,0);
+} */
+
+@keyframes rainbow { 
+  0%{background-position:left}
+  50%{background-position:right}
+  100%{background-position:left}
+}
+
 @media only screen and (max-width: 600px) {
   
 }
