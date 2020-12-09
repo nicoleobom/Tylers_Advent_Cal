@@ -128,6 +128,35 @@ body {
 }
 
 
+.modal-content {
+  border: none;
+  padding: 50px;
+  background-color: rgba(28,40,82) !important;
+  color: rgb(187,187,187);
+  font-size: 20px;
+  font-family: 'Makuta', sans-serif;
+}
+
+.modal-dialog {
+  margin-top: 20% !important;
+}
+
+.modal-btn {
+  outline: none !important;
+  border: none;
+  border-radius: 5px;
+  padding: 5px 10px;
+  font-family: 'Exodus-Sharp', serif;
+  font-weight: bold;
+  background-color: rgb(187,187,187);
+  color:  rgba(28,40,82);
+  transition: ease-in-out .25s;
+}
+
+.modal-btn:hover {
+  background-color:  rgba(187,187,187, .6)
+}
+
 @media only screen and (max-width: 600px) {
   
 }
