@@ -23,11 +23,12 @@ function lockedDate() {
 lockedDate();
 
 function newQuote() {
-    var myQuotes = JSON.parse(quote)
     var randomNum = Math.floor(Math.random() * 12) + 1;
+    var quoteSpot = document.getElementById('quotes');
 
+    fetch('../quotes.json')
+        .then(res => res.json())
+        .then(data => quoteSpot.innerText = data[randomNum].quote)
 }
 
-function modalPopUp() {
-    
-}
+newQuote();

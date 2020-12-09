@@ -1,4 +1,4 @@
-quote = '[
+[
     {
         "id": 1,
         "quote": "There are many paths ahead of you, Guardian."
@@ -47,4 +47,4 @@ quote = '[
         "id": 12,
         "quote": "Ten glimmer says there's a tank in tomorrow's present."
     }
-]'
+]
