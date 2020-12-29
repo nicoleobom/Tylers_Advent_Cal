@@ -33,9 +33,13 @@
   src: url('./assets/fonts/ShadowsIntoLight-Regular.ttf');
 }
 
+::-webkit-scrollbar {
+  display: none;
+}
+
 body {
     background-image: url('./assets/images/destiny.jpg');
-    background-attachment: fixed;
+    background-attachment: fixed !important;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
